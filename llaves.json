@@ -66,14 +66,14 @@
                     "class": "sc-ikJyIC doSlIl btn-primary btn-full",
                     "button-text": "Buscar"
                 }
+            },
+            "SearchBar": {
+                "metodo": "TAG_NAME",
+                "llave": "input",
+                "placeholder": "caracter",
+                "class": "sc-llYSUQ hIKvTS",
+                "name": "searchBox"
             }
-        },
-        "SearchBar": {
-            "metodo": "TAG_NAME",
-            "llave": "input",
-            "placeholder": "caracter",
-            "class": "sc-llYSUQ hIKvTS",
-            "name": "searchBox"
         },
         "clasificado": {
             "Attributes": {
