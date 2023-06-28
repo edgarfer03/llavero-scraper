@@ -1,158 +1,158 @@
 {
-    "EasyBroker":{
-        "Attributes":{
-            "metodo":"CLASS_NAME",
-            "llave":"feature-icon"
+    "EasyBroker": {
+        "Attributes": {
+            "metodo": "CLASS_NAME",
+            "llave": "feature-icon"
         },
-        "ID":{
-            "try1":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div.listing-id"
+        "ID": {
+            "try1": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div.listing-id"
             },
-            "try2":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div.ids"
+            "try2": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div.ids"
             }
         },
-        "Titulo":{
-            "metodo":"CLASS_NAME",
-            "llave":"property-title"
+        "Titulo": {
+            "metodo": "CLASS_NAME",
+            "llave": "property-title"
         },
-        "Precio_total":{
-            "metodo":"CLASS_NAME",
-            "llave":"digits"
+        "Precio_total": {
+            "metodo": "CLASS_NAME",
+            "llave": "digits"
         },
-        "Dias_de_publicacion":{
-            "metodo":"CSS_SELECTOR",
-            "llave":"div.publication-date"
+        "Dias_de_publicacion": {
+            "metodo": "CSS_SELECTOR",
+            "llave": "div.publication-date"
         },
-        "descripcion":{
-            "metodo":"CSS_SELECTOR",
-            "llave":"p.text-description"
+        "descripcion": {
+            "metodo": "CSS_SELECTOR",
+            "llave": "p.text-description"
         },
-        "Ubicacion":{
-            "metodo":"CSS_SELECTOR",
-            "llave":"div.title > section > h2"
+        "Ubicacion": {
+            "metodo": "CSS_SELECTOR",
+            "llave": "div.title > section > h2"
         },
-        "Asesor":{
-            "metodo":"CSS_SELECTOR",
-            "llave":"div.info > div.agent"
+        "Asesor": {
+            "metodo": "CSS_SELECTOR",
+            "llave": "div.info > div.agent"
         },
-        "Gallery_image":{
-            "metodo":"CLASS_NAME",
-            "llave":"gallery"
+        "Gallery_image": {
+            "metodo": "CLASS_NAME",
+            "llave": "gallery"
         },
-        "property_image":{
-            "try1":{
-                "metodo":"CLASS_NAME",
-                "llave":"top"
+        "property_image": {
+            "try1": {
+                "metodo": "CLASS_NAME",
+                "llave": "top"
             },
-            "try2":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div.swiper.property-image.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-css-mode"
+            "try2": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div.swiper.property-image.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-css-mode"
             }
         }
     },
-    "Inmuebles24":{
-        "general":{
-            "SearchButton":{
-                "try1":{
-                    "metodo":"CSS_SELECTOR",
-                    "llave":"div.sc-iUKqMP.fCXqop > button"
+    "Inmuebles24": {
+        "general": {
+            "SearchButton": {
+                "try1": {
+                    "metodo": "CSS_SELECTOR",
+                    "llave": "div.sc-iUKqMP.fCXqop > button"
                 },
-                "try2":{
-                    "metodo":"TAG_NAME",
-                    "llave":"button",
-                    "class":"sc-ikJyIC doSlIl btn-primary btn-full",
-                    "button-text":"Buscar"
-                },
-                "SearchBar":{
-                    "metodo":"TAG_NAME",
-                    "llave":"input",
-                    "placeholder":"caracter",
-                    "class":"sc-llYSUQ hIKvTS",
-                    "name":"searchBox"
+                "try2": {
+                    "metodo": "TAG_NAME",
+                    "llave": "button",
+                    "class": "sc-ikJyIC doSlIl btn-primary btn-full",
+                    "button-text": "Buscar"
                 }
             }
         },
-        "clasificado":{
-            "Attributes":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"ul.section-icon-features"
+        "SearchBar": {
+            "metodo": "TAG_NAME",
+            "llave": "input",
+            "placeholder": "caracter",
+            "class": "sc-llYSUQ hIKvTS",
+            "name": "searchBox"
+        },
+        "clasificado": {
+            "Attributes": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "ul.section-icon-features"
             },
-            "ID":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#reactPublisherData > div > ul > li:nth-child(2)"
+            "ID": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#reactPublisherData > div > ul > li:nth-child(2)"
             },
-            "Titulo":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#article-container > hgroup > div > h1"
+            "Titulo": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#article-container > hgroup > div > h1"
             },
-            "Mantenimiento":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#article-container > div.posting-price > div.price-container > div > div:nth-child(1) > div.block-expensas.block-row"
+            "Mantenimiento": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#article-container > div.posting-price > div.price-container > div > div:nth-child(1) > div.block-expensas.block-row"
             },
-            "Antiguedad":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"i.icon-antiguedad"
+            "Antiguedad": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "i.icon-antiguedad"
             },
-            "Precio_total":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#article-container > div.posting-price > div > div > div > div > div.price-items > span"
+            "Precio_total": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#article-container > div.posting-price > div > div > div > div > div.price-items > span"
             },
-            "Dias_de_publicacion":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#user-views > div > div:nth-child(1)"
+            "Dias_de_publicacion": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#user-views > div > div:nth-child(1)"
             },
-            "descripcion":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div#longDescription"
+            "descripcion": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div#longDescription"
             },
-            "Ubicacion":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#article-container > hgroup > h2"
+            "Ubicacion": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#article-container > hgroup > h2"
             },
-            "Asesor":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"h5.PublisherTitle-sc-1l372mh-8.iUrMlV"
+            "Asesor": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "h5.PublisherTitle-sc-1l372mh-8.iUrMlV"
             },
-            "Gallery_image":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div#new-gallery-portal"
+            "Gallery_image": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div#new-gallery-portal"
             }
         },
-        "Desarrollo":{
-            "Attributes":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div.nf-container"
+        "Desarrollo": {
+            "Attributes": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div.nf-container"
             },
-            "ID":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#reactPublisherData > div > ul > li:nth-child(2)"
+            "ID": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#reactPublisherData > div > ul > li:nth-child(2)"
             },
-            "Titulo":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"h1.title"
+            "Titulo": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "h1.title"
             },
-            "Precio_total":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div.price-items"
+            "Precio_total": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div.price-items"
             },
-            "descripcion":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"div#longDescription"
+            "descripcion": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "div#longDescription"
             },
-            "Ubicacion":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#detailTitle > div.header-container.layout-container.flex-column > div > p"
+            "Ubicacion": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#detailTitle > div.header-container.layout-container.flex-column > div > p"
             },
-            "Asesor":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"h5.PublisherTitle-sc-1l372mh-8.cCNrqz"
+            "Asesor": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "h5.PublisherTitle-sc-1l372mh-8.cCNrqz"
             },
-            "Gallery_image":{
-                "metodo":"CSS_SELECTOR",
-                "llave":"#new-gallery-portal"
+            "Gallery_image": {
+                "metodo": "CSS_SELECTOR",
+                "llave": "#new-gallery-portal"
             }
         }
     }
