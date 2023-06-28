@@ -1,66 +1,159 @@
 {
-    "ID": {
-        "metodo": "",
-        "llave": ""
+    "EasyBroker":{
+        "Attributes":{
+            "metodo":"CLASS_NAME",
+            "llave":"feature-icon"
+        },
+        "ID":{
+            "try1":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div.listing-id"
+            },
+            "try2":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div.ids"
+            }
+        },
+        "Titulo":{
+            "metodo":"CLASS_NAME",
+            "llave":"property-title"
+        },
+        "Precio total":{
+            "metodo":"CLASS_NAME",
+            "llave":"digits"
+        },
+        "Dias de publicacion":{
+            "metodo":"CSS_SELECTOR",
+            "llave":"div.publication-date"
+        },
+        "descripcion":{
+            "metodo":"CSS_SELECTOR",
+            "llave":"p.text-description"
+        },
+        "Ubicacion":{
+            "metodo":"CSS_SELECTOR",
+            "llave":"div.title > section > h2"
+        },
+        "Asesor":{
+            "metodo":"CSS_SELECTOR",
+            "llave":"div.info > div.agent"
+        },
+        "Gallery-image":{
+            "metodo":"CLASS_NAME",
+            "llave":"gallery"
+        },
+        "property_image":{
+            "try1":{
+                "metodo":"CLASS_NAME",
+                "llave":"top"
+            },
+            "try2":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div.swiper.property-image.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-css-mode"
+            }
+        }
     },
-    "Titulo": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Recamaras": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Banos": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Estacionamientos": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Antiguedad": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Terreno en m2": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Constr. en m2": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Precio total": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Dias de publicacion": {
-        "metodo": "",
-        "llave": ""
-    },
-    "pisos": {
-        "metodo": "",
-        "llave": ""
-    },
-    "largo": {
-        "metodo": "",
-        "llave": ""
-    },
-    "ancho": {
-        "metodo": "",
-        "llave": ""
-    },
-    "descripcion": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Ubicacion": {
-        "metodo": "",
-        "llave": ""
-    },
-    "Asesor": {
-        "metodo": "",
-        "llave": ""
+    "Inmuebles24":{
+        "general":{
+            "SearchButton":{
+                "try1":{
+                    "metodo":"CSS_SELECTOR",
+                    "llave":"div.sc-iUKqMP.fCXqop > button"
+                },
+                "try2":{
+                    "metodo":"TAG_NAME",
+                    "llave":"button",
+                    "class":"sc-ikJyIC doSlIl btn-primary btn-full",
+                    "button-text":"Buscar"
+                },
+                "SearchBar":{
+                    "metodo":"TAG_NAME",
+                    "llave":"input",
+                    "placeholder":"caracter",
+                    "class":"sc-llYSUQ hIKvTS",
+                    "name":"searchBox"
+                }
+            }
+        },
+        "clasificado":{
+            "Attributes":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"ul.section-icon-features"
+            },
+            "ID":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#reactPublisherData > div > ul > li:nth-child(2)"
+            },
+            "Titulo":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#article-container > hgroup > div > h1"
+            },
+            "Mantenimiento":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#article-container > div.posting-price > div.price-container > div > div:nth-child(1) > div.block-expensas.block-row"
+            },
+            "Antiguedad":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"i.icon-antiguedad"
+            },
+            "Precio total":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#article-container > div.posting-price > div > div > div > div > div.price-items > span"
+            },
+            "Dias de publicacion":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#user-views > div > div:nth-child(1)"
+            },
+            "descripcion":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div#longDescription"
+            },
+            "Ubicacion":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#article-container > hgroup > h2"
+            },
+            "Asesor":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"h5.PublisherTitle-sc-1l372mh-8.iUrMlV"
+            },
+            "Gallery-image":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div#new-gallery-portal"
+            }
+        },
+        "Desarrollo":{
+            "Attributes":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div.nf-container"
+            },
+            "ID":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#reactPublisherData > div > ul > li:nth-child(2)"
+            },
+            "Titulo":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"h1.title"
+            },
+            "Precio total":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div.price-items"
+            },
+            "descripcion":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"div#longDescription"
+            },
+            "Ubicacion":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#detailTitle > div.header-container.layout-container.flex-column > div > p"
+            },
+            "Asesor":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"h5.PublisherTitle-sc-1l372mh-8.cCNrqz"
+            },
+            "Gallery-image":{
+                "metodo":"CSS_SELECTOR",
+                "llave":"#new-gallery-portal"
+            }
+        }
     }
 }
