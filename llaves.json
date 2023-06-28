@@ -1,0 +1,66 @@
+{
+    "ID": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Titulo": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Recamaras": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Banos": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Estacionamientos": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Antiguedad": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Terreno en m2": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Constr. en m2": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Precio total": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Dias de publicacion": {
+        "metodo": "",
+        "llave": ""
+    },
+    "pisos": {
+        "metodo": "",
+        "llave": ""
+    },
+    "largo": {
+        "metodo": "",
+        "llave": ""
+    },
+    "ancho": {
+        "metodo": "",
+        "llave": ""
+    },
+    "descripcion": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Ubicacion": {
+        "metodo": "",
+        "llave": ""
+    },
+    "Asesor": {
+        "metodo": "",
+        "llave": ""
+    }
+}
