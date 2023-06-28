@@ -18,11 +18,11 @@
             "metodo":"CLASS_NAME",
             "llave":"property-title"
         },
-        "Precio total":{
+        "Precio_total":{
             "metodo":"CLASS_NAME",
             "llave":"digits"
         },
-        "Dias de publicacion":{
+        "Dias_de_publicacion":{
             "metodo":"CSS_SELECTOR",
             "llave":"div.publication-date"
         },
@@ -38,7 +38,7 @@
             "metodo":"CSS_SELECTOR",
             "llave":"div.info > div.agent"
         },
-        "Gallery-image":{
+        "Gallery_image":{
             "metodo":"CLASS_NAME",
             "llave":"gallery"
         },
@@ -96,11 +96,11 @@
                 "metodo":"CSS_SELECTOR",
                 "llave":"i.icon-antiguedad"
             },
-            "Precio total":{
+            "Precio_total":{
                 "metodo":"CSS_SELECTOR",
                 "llave":"#article-container > div.posting-price > div > div > div > div > div.price-items > span"
             },
-            "Dias de publicacion":{
+            "Dias_de_publicacion":{
                 "metodo":"CSS_SELECTOR",
                 "llave":"#user-views > div > div:nth-child(1)"
             },
@@ -116,7 +116,7 @@
                 "metodo":"CSS_SELECTOR",
                 "llave":"h5.PublisherTitle-sc-1l372mh-8.iUrMlV"
             },
-            "Gallery-image":{
+            "Gallery_image":{
                 "metodo":"CSS_SELECTOR",
                 "llave":"div#new-gallery-portal"
             }
@@ -134,7 +134,7 @@
                 "metodo":"CSS_SELECTOR",
                 "llave":"h1.title"
             },
-            "Precio total":{
+            "Precio_total":{
                 "metodo":"CSS_SELECTOR",
                 "llave":"div.price-items"
             },
@@ -150,7 +150,7 @@
                 "metodo":"CSS_SELECTOR",
                 "llave":"h5.PublisherTitle-sc-1l372mh-8.cCNrqz"
             },
-            "Gallery-image":{
+            "Gallery_image":{
                 "metodo":"CSS_SELECTOR",
                 "llave":"#new-gallery-portal"
             }
