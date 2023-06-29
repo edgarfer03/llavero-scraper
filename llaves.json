@@ -1,54 +1,54 @@
 {
     "EasyBroker": {
         "Attributes": {
-            "metodo": "CLASS_NAME",
+            "metodo": "class name",
             "llave": "feature-icon"
         },
         "ID": {
             "try1": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div.listing-id"
             },
             "try2": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div.ids"
             }
         },
         "Titulo": {
-            "metodo": "CLASS_NAME",
+            "metodo": "class name",
             "llave": "property-title"
         },
         "Precio_total": {
-            "metodo": "CLASS_NAME",
+            "metodo": "class name",
             "llave": "digits"
         },
         "Dias_de_publicacion": {
-            "metodo": "CSS_SELECTOR",
+            "metodo": "css selector",
             "llave": "div.publication-date"
         },
         "descripcion": {
-            "metodo": "CSS_SELECTOR",
+            "metodo": "css selector",
             "llave": "p.text-description"
         },
         "Ubicacion": {
-            "metodo": "CSS_SELECTOR",
+            "metodo": "css selector",
             "llave": "div.title > section > h2"
         },
         "Asesor": {
-            "metodo": "CSS_SELECTOR",
+            "metodo": "css selector",
             "llave": "div.info > div.agent"
         },
         "Gallery_image": {
-            "metodo": "CLASS_NAME",
+            "metodo": "class name",
             "llave": "gallery"
         },
         "property_image": {
             "try1": {
-                "metodo": "CLASS_NAME",
+                "metodo": "class name",
                 "llave": "top"
             },
             "try2": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div.swiper.property-image.swiper-initialized.swiper-horizontal.swiper-pointer-events.swiper-css-mode"
             }
         }
@@ -57,18 +57,18 @@
         "general": {
             "SearchButton": {
                 "try1": {
-                    "metodo": "CSS_SELECTOR",
+                    "metodo": "css selector",
                     "llave": "div.sc-iUKqMP.fCXqop > button"
                 },
                 "try2": {
-                    "metodo": "TAG_NAME",
+                    "metodo": "tag name",
                     "llave": "button",
                     "class": "sc-ikJyIC doSlIl btn-primary btn-full",
                     "button-text": "Buscar"
                 }
             },
             "SearchBar": {
-                "metodo": "TAG_NAME",
+                "metodo": "tag name",
                 "llave": "input",
                 "placeholder": "caracter",
                 "class": "sc-llYSUQ hIKvTS",
@@ -77,81 +77,81 @@
         },
         "clasificado": {
             "Attributes": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "ul.section-icon-features"
             },
             "ID": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#reactPublisherData > div > ul > li:nth-child(2)"
             },
             "Titulo": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#article-container > hgroup > div > h1"
             },
             "Mantenimiento": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#article-container > div.posting-price > div.price-container > div > div:nth-child(1) > div.block-expensas.block-row"
             },
             "Antiguedad": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "i.icon-antiguedad"
             },
             "Precio_total": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#article-container > div.posting-price > div > div > div > div > div.price-items > span"
             },
             "Dias_de_publicacion": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#user-views > div > div:nth-child(1)"
             },
             "descripcion": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div#longDescription"
             },
             "Ubicacion": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#article-container > hgroup > h2"
             },
             "Asesor": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "h5.PublisherTitle-sc-1l372mh-8.iUrMlV"
             },
             "Gallery_image": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div#new-gallery-portal"
             }
         },
         "Desarrollo": {
             "Attributes": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div.nf-container"
             },
             "ID": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#reactPublisherData > div > ul > li:nth-child(2)"
             },
             "Titulo": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "h1.title"
             },
             "Precio_total": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div.price-items"
             },
             "descripcion": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "div#longDescription"
             },
             "Ubicacion": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#detailTitle > div.header-container.layout-container.flex-column > div > p"
             },
             "Asesor": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "h5.PublisherTitle-sc-1l372mh-8.cCNrqz"
             },
             "Gallery_image": {
-                "metodo": "CSS_SELECTOR",
+                "metodo": "css selector",
                 "llave": "#new-gallery-portal"
             }
         }
