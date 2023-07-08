@@ -1,4 +1,5 @@
-{
+{    
+    "chrome_version":114,
     "EasyBroker": {
         "Attributes": {
             "metodo": "class name",
